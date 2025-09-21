@@ -1,6 +1,8 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+dotenv.config();
 
+// this is the file that is used to connect to the database
 
 const connectdb = async () => {
     try {

@@ -9,6 +9,10 @@ const app = express();
 
 connectdb();
 
+// middleware
+app.use(express.json());
+
+
 app.use("/api/notes", notesRoutes);
 
 
