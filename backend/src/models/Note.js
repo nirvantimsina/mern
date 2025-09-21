@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 
+// schema design for the database, here you define the type of data and other neat stuff that is to be sent to the db
+
 const noteScheme = new mongoose.Schema(
   {
     title: {
