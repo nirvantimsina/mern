@@ -5,8 +5,9 @@ import api from "../lib/axios.js"
 import NoteCard from '../components/NoteCard'
 import Navbar from '../components/Navbar'
 import NotesNotFound from '../components/NotesNotFound.jsx'
+import { HomeIcon } from 'lucide-react'
 
-export const HomePage = () => {
+const HomePage = () => {
   const [notes, setNotes] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -46,3 +47,5 @@ export const HomePage = () => {
     </div>
   )
 }
+
+export default HomePage
